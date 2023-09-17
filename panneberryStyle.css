@@ -108,3 +108,14 @@ nav a {
     top: 10vw; /* Adjust the top position as needed */
     right: 20px; /* Adjust the right position as needed */
 }
+
+
+/* Hide bullet points in the list items and change text color */
+.clickMylink ul {
+    padding: 0; /* Remove any default padding or margin */
+}
+
+.clickMylink li {
+    list-style: none; /* Hide bullet points */
+    color: #e95466; /* Change text color */
+}
