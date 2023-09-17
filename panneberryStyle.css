@@ -1,0 +1,90 @@
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
+
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up the pastel color scheme */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f5f5;
+    color: #e95466; /*  #ff6879 red light */ 
+}
+
+
+
+header {
+    background-color: #e8dff5; /* Light Purple */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7b41ce; /* purple text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fce1e4; /* Light Pink */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.section {
+    margin: 40px 0;
+}
+
+/* Add more CSS styles as needed for your content and projects section */
+
+.social_media{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+
+  .social_media i{
+    padding: 0 5px;
+    color: #e95466; /*  #ff6879 red light */ 
+    opacity: 0.6;
+    font-size: 20px;
+    transition: all 0.2s linear;
+  }
+
+  .social_media i:hover{
+    opacity: 1;
