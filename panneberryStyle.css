@@ -41,7 +41,8 @@ header {
     background-color: #e8dff5; /* Light Purple */
     padding: 20px 0;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 nav ul {
@@ -103,8 +104,7 @@ nav a {
 
 /* Position the buttons to the right of the screen */
 .language_button {
-    position: fixed;
-    top: 8vw; /* Adjust the top position as needed */
+    position: sticky;
+    top: 10vw; /* Adjust the top position as needed */
     right: 20px; /* Adjust the right position as needed */
-    z-index: 1000; /* Ensure it's on top of other content */
 }
