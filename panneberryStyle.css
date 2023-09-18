@@ -104,17 +104,28 @@ nav a:hover {
 
   /* Style the buttons */
 .language_button button {
-    color: #e95466;
-    border: 1px solid #e95466; 
+    color: #4f0aaf;
+    border: 1px solid #4f0aaf; 
     border-radius: 10px;
     
 }
 
 /* Position the buttons to the right of the screen */
+/* .language_button {
+    position: relative;
+    bottom: -705px;
+    text-align: right; 
+    right: 20px;
+    cursor: pointer;
+    
+} */
+
 .language_button {
-    position: fixed;
-    bottom: 20px; /* Adjust the bottom position as needed */
+    position: relative; /* Change to 'fixed' for a fixed position */
+    top: -120px; /* Adjust the top position as needed */
     right: 20px; /* Adjust the right position as needed */
+    text-align: right;
+    cursor: pointer;
 }
 
 
