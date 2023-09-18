@@ -44,7 +44,7 @@ header {
     background-color:  #d4b89f ; /* Light Purple (light brown #e9cbaf) */
     padding: 10px 0;
     text-align: center;
-    font-size: 35px;
+    font-size: 120%; /* 3 topics on the page*/
     font-weight: bold;
 }
 
