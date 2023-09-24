@@ -166,4 +166,31 @@ nav a:hover {
     max-width: 200px; /* Adjust the logo size as needed */
 }
 
+.photo-container {
+    opacity: 0;
+    /* Initially, set the opacity to 0 to hide the photo */
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    transition: opacity 4s ease;
+    /* Apply both fade-in and movement transition */
 
+}
+
+.photo-container img {
+    max-width: 35%;
+    /* Ensure the image doesn't exceed its container */
+    border-top-left-radius: 250px;
+    /* No rounding on top-left */
+    border-bottom-left-radius: 5px;
+    /* No rounding on bottom-left */
+    border-top-right-radius: 250px;
+    /* Add rounding only to top-right */
+    border-bottom-right-radius: 5px;
+    /* Add rounding only to bottom-right */
+}
+
+.show-photo {
+    opacity: 1;
+}
