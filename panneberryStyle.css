@@ -19,32 +19,40 @@
     }
 }
 
-   
+
 
 /* Reset some default styles */
-body, h1, h2, p {
+body,
+h1,
+h2,
+p {
     margin: 0;
     padding: 0;
 }
 
 /* Set up the pastel color scheme */
 body {
-    
-    font-family: 'Georgia', serif;  /* 'Georgia', serif;   */
+
+    font-family: 'Georgia', serif;
+    /* 'Georgia', serif;   */
     background-color: #f0e7de;
-    color: #54281d; /*  #ff6879 red light */ 
+    color: #54281d;
+    /*  #ff6879 red light */
 }
 
 
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
 header {
     font-family: 'Playfair Display', serif;
     /* font-family: 'Georgia', serif;  */
-    background-color:  #d4b89f ; /* Light Purple (light brown #e9cbaf) */
+    background-color: #d4b89f;
+    /* Light Purple (light brown #e9cbaf) */
     padding: 10px 0;
     text-align: center;
-    font-size: 150%; /* 3 topics on the page*/
+    font-size: 150%;
+    /* 3 topics on the page*/
     font-weight: bold;
 }
 
@@ -60,13 +68,16 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color:   #66473a; /* purple text color  ( #b26942 brown) */
-    transition: color 0.2s linear; /* Add transition for smooth color change */
+    color: #66473a;
+    /* purple text color  ( #b26942 brown) */
+    transition: color 0.2s linear;
+    /* Add transition for smooth color change */
 }
 
- 
+
 nav a:hover {
-    color: #54281d; /* Hover color (#e95466) */
+    color: #54281d;
+    /* Hover color (#e95466) */
 }
 
 
@@ -74,7 +85,8 @@ nav a:hover {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
-    background-color: #d4b89f; /* Light Pink */
+    background-color: #d4b89f;
+    /* Light Pink */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
@@ -85,68 +97,76 @@ nav a:hover {
 
 /* Add more CSS styles as needed for your content and projects section */
 
-.social_media{
+.social_media {
     position: relative;
     bottom: -70px;
     text-align: center;
     cursor: pointer;
-  }
+}
 
-  .social_media i{
+.social_media i {
     padding: 0 5px;
-    color: #54281d; /*  #ff6879 red light */ 
+    color: #54281d;
+    /*  #ff6879 red light */
     opacity: 0.6;
     font-size: 20px;
     transition: all 0.2s linear;
-  }
-
-  .social_media i:hover{
-    opacity: 1;
-  }
-
-  /* Style the buttons */
-.language_button button {
-    color: #54281d;
-    border: 1px solid #54281d; 
-    border-radius: 10px;
 }
 
-/* Position the buttons to the right of the screen */
-/* .language_button {
-    position: relative;
-    bottom: -705px;
-    text-align: right; 
-    right: 20px;
-    cursor: pointer;
-    
-} */
+.social_media i:hover {
+    opacity: 1;
+}
 
 .language_button {
-    position: relative; /* Change to 'fixed' for a fixed position */
-    top: 10px; /* Adjust the top position as needed */
-    right: 20px; /* Adjust the right position as needed */
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
+
+
+.language_button div {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the buttons */
+.language_button button {
+    color: #54281d;
+    border: 1px solid #54281d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 
 /* Hide bullet points in the list items and change text color */
 .clickMylink ul {
-    padding: 0; /* Remove any default padding or margin */
+    padding: 0;
+    /* Remove any default padding or margin */
 }
 
 .clickMylink li {
-    list-style: none; /* Hide bullet points */
-    color: #54281d; /* Change text color */
+    list-style: none;
+    /* Hide bullet points */
+    color: #54281d;
+    /* Change text color */
 }
 
 .clickMylink li a {
-    color: #54281d; /* Change text color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.2s linear; /* Add transition for smooth color change */
+    color: #54281d;
+    /* Change text color */
+    text-decoration: none;
+    /* Remove underline */
+    transition: color 0.2s linear;
+    /* Add transition for smooth color change */
 }
 
 .clickMylink li a:hover {
-    color: #8d502e; /* Hover color (#4f0aaf) */
+    color: #8d502e;
+    /* Hover color (#4f0aaf) */
 }
 
 
@@ -156,14 +176,16 @@ nav a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff; /* Background color behind the logo */
+    background-color: #fff;
+    /* Background color behind the logo */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #preloader img {
-    max-width: 200px; /* Adjust the logo size as needed */
+    max-width: 200px;
+    /* Adjust the logo size as needed */
 }
 
 .photo-container {
