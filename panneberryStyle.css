@@ -239,7 +239,9 @@ span{
     }
     
     .liveText h3 {
-        font-size: 350%;
-        /* font-weight: ; */
+        font-size: 200%;
+        text-align: center;
+        /* height: 270.73px; */
+
     }
 }
