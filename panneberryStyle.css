@@ -199,8 +199,8 @@ nav a:hover {
 }
 
 .liveText h3 {
-    font-size: 80px;
-    font-weight: 600;
+    font-size: 350%;
+    /* font-weight: 600; */
 }
 
 span{
