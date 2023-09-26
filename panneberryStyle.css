@@ -177,18 +177,15 @@ nav a:hover {
 }
 
 .thankyouPhoto {
-    opacity: ;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    transition: opacity 4s ease; /* Apply a fade-in transition */
-   
 }
 
 .thankyouPhoto img{
     max-width: 60%;
     opacity: 50%;
-    z-index: -1;
+
 }
 
 
