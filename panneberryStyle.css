@@ -189,7 +189,7 @@ nav a:hover {
     }
 
     nav li {
-        display: block;
+        /* display: block; */
         margin: 10px 0;
     }
 
