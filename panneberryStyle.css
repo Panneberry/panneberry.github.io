@@ -148,6 +148,7 @@ nav a:hover {
 
 
 .photo-container {
+    padding-top: 20px;
     opacity: 0;
     /* Initially, set the opacity to 0 to hide the photo */
     display: flex;
