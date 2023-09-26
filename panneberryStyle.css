@@ -176,6 +176,22 @@ nav a:hover {
     opacity: 1;
 }
 
+.thankyouPhoto {
+    opacity: ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: opacity 4s ease; /* Apply a fade-in transition */
+   
+}
+
+.thankyouPhoto img{
+    max-width: 60%;
+    opacity: 50%;
+    z-index: -1;
+}
+
+
 /* For screens smaller than 768px (e.g., mobile devices) */ 
 /* panne */
 @media screen and (max-width: 768px) {
@@ -200,4 +216,11 @@ nav a:hover {
     .photo-container img {
         max-width: 90%;
     }
+
+    .thankyouPhoto img{
+        max-width: 100%;
+        opacity: 50%;
+        z-index: -1;
+    }
+    
 }
