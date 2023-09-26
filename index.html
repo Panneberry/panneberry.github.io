@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="panneberryScript.js"></script>
     <script src="mouse.js"></script>
+    
 </head>
 <body>
     <header>
@@ -36,12 +37,15 @@
         <!-- https://loading.io/asset/689565
     </div> -->
 
+   
 
     <div class="photo-container"> <!-- test comment -->
         <img src="welcomeToPanne.png" alt="Your Photo">
     </div>
-    <!-- type something -->
     
+    <div class="liveText">
+        <h3>Panne is <span class="auto-type"></span></h3>
+    </div>
     
     <section id="about" class="section">
         <div class="container">
@@ -91,5 +95,14 @@
                 z-index: -1;" >
     </div>
    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["thinking", "coding", "sleepy"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
 </body>
 </html>

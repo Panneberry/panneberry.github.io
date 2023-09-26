@@ -189,6 +189,23 @@ nav a:hover {
 
 }
 
+.liveText {
+    /* width: 100%;
+    height: 100vh; */
+    color: #8d502e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.liveText h3 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+span{
+    color: #54281d;
+}
 
 /* For screens smaller than 768px (e.g., mobile devices) */ 
 /* panne */
@@ -221,4 +238,8 @@ nav a:hover {
         z-index: -1;
     }
     
+    .liveText h3 {
+        font-size: 350%;
+        /* font-weight: ; */
+    }
 }
