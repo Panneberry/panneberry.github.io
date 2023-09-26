@@ -201,7 +201,7 @@ nav a:hover {
 
     nav ul {
         text-align: center;
-        padding-top: 20px;
+        padding-left: 0;
     }
 
     nav li {
