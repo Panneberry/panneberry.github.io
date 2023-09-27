@@ -105,6 +105,11 @@ nav{
     right: 80px;
     top: 50px;
     cursor: pointer;
+
+    padding: 0 5px; /* make the color change when hover*/
+    color: #54281d;
+    opacity: 0.6;
+    transition: all 0.2s linear;
 }
 
 .menu-icon i:hover {
@@ -308,7 +313,7 @@ span{
     font-size: 1000%;
     letter-spacing: 30px;
     }
-    
+
     .thankyouPhoto img{
         max-width: 100%;
         opacity: 50%;
