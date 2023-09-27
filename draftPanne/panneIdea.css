@@ -41,7 +41,7 @@ p {
 }
 
 /* Set up the pastel color scheme */
-body {
+body{
 
     font-family: 'Georgia', serif;
     /* 'Georgia', serif;   */
@@ -52,17 +52,17 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 
-header {
+/* header {
     font-family: 'Playfair Display', serif;
-    /* font-family: 'Georgia', serif;  */
+    /* font-family: 'Georgia', serif;  *//*
     background-color: #d4b89f;
-    /* Light Purple (light brown #e9cbaf) */
+    /* Light Purple (light brown #e9cbaf) *//*
     padding: 10px 0;
     text-align: center;
     font-size: 150%;
-    /* 3 topics on the page*/
-    font-weight: bold;
-}
+    /* 3 topics on the page*//*
+    font-weight: bold;/*
+} */
 
 /* nav ul {
     list-style: none;
@@ -120,19 +120,19 @@ nav ul li a:hover::after{
 }
 
 nav{
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #8d502e;
     z-index: 2;
-    top: 0;
+    top: -100vh;
     left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-
-    display: none;
+    transition: all 0.5s;
+    /* display: none; */
 
 }
 
@@ -149,26 +149,34 @@ nav{
     z-index: -1;
 }
 
-.close-icon i { 
-   width: 25px;
-   position: absolute;
-   right: 80px;
-   top: 50px;
-   cursor: pointer;
-  }
-  
-.menu-icon{
-    width: 30px;
+.close-icon i {
+    width: 25px;
+    font-size: 250%;
     position: absolute;
-    right: 30px;
-    top: 20px;
+    right: 80px;
+    top: 50px;
+    cursor: pointer;
+
+    padding: 0 5px; /* make the color change when hover*/
+    color: #54281d;
+    opacity: 0.6;
+    transition: all 0.2s linear;
+}
+  
+.close-icon i:hover {
+    opacity: 1;
+}
+
+.menu-icon i{
+    width: 30px;
+    font-size: 250%;
+    position: absolute;
+    right: 80px;
+    top: 50px;
     cursor: pointer;
 }
 
-  /* .close-icon i:hover {
-    color: #333;
-    font-size: 4vw;
-  } */
+
 
 .container {
     max-width: 800px;

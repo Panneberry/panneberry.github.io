@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="menu">
             <ul> 
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -21,25 +21,25 @@
             </ul>
             <p class="lite-text">MENU</p>
             <div class="close-icon" >  
-                <label for="check">
-                  <i class="fas fa-times"></i>
+                <label>
+                  <i class="fas fa-times" onclick="closemenu()"></i>
                 </label>
             </div>
         </nav>
-        <div class="menu-icon" >
-            <label for="check">
-              <i class="fas fa-bars"></i>
+        <div class="menu-icon">
+            <label>
+              <i class="fas fa-bars"  onclick="openmenu()"></i>
             </label>
         </div>
     </header>
 
-    <div id="language-selector" class="language_button">
+    <!-- <div id="language-selector" class="language_button">
         <div>
             <button onclick="loadLanguage('en')">EN</button>
             <button onclick="loadLanguage('th')">TH</button>
             <button onclick="loadLanguage('jp')">JP</button>
         </div>
-    </div>
+    </div> -->
     
     <div class="photo-container"> <!-- test comment -->
         <img src="welcomeToPanne.png" alt="Your Photo">
@@ -98,13 +98,14 @@
     </div>
    
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
+    <!-- <script>
         var typed = new Typed(".auto-type", {
             strings: ["thinking", "coding", "sleepy"],
             typeSpeed: 150,
             backSpeed: 150,
             loop: true
         })
-    </script>
+    </script> -->
+      <script src="panneAction.js"></script>
 </body>
 </html>
