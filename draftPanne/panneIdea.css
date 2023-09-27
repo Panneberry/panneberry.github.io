@@ -147,6 +147,7 @@ nav{
     transform: translate(-50%, -50%);
     font-weight: 800;
     z-index: -1;
+    padding-left: 8%; /*add space before M(enu)*/
 }
 
 .close-icon i {
