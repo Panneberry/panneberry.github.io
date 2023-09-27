@@ -8,6 +8,7 @@ window.addEventListener('load', function () {
 //     strings: ["Coding", "Sleeping", "Eating"],
 //     typeSpeed: 150,
 // })
+
 var typed = new Typed(".auto-type", {
     strings: ["thinking", "coding", "sleepy"],
     typeSpeed: 150,

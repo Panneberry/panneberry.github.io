@@ -80,6 +80,47 @@ nav{
     padding-left: 8%; /*add space before M(enu)*/
 }
 
+/********************************************************************************************************/
+.panneTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 160px;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -1000px 0;
+    animation: backcolor 5s linear;  /**or   animation: backcolor 5s linear infinite alternate; // for repeat animation*/
+}
+
+
+@keyframes backcolor {   
+    /**or only   100% {
+            background-position: 0 0; - Adjust the value for the desired animation effect 
+                        } */
+    0% {
+        background-position: -1000px 0;
+    }
+
+    40% {
+        background-position: 0 0; /* Show "1234" */
+    }
+    60% {
+        background-position: 0 0; /* Pause for 1.5 seconds at "1234" */
+    }
+
+    /* 50% {
+        background-position: 0 0; /* First, show 1234 *//*
+    } */
+
+    100% {
+        background-position: -1000px 0; /* Then, show 4321 */
+    }
+}
+
+/********************************************************************************************************/
 .close-icon i {
     width: 25px;
     font-size: 250%;
