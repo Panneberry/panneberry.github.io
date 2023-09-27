@@ -1,37 +1,3 @@
-/* For screens smaller than 768px (e.g., mobile devices) */ 
-/* panne */
-@media screen and (max-width: 768px) {
-    header {
-        padding: 10px 0;
-    }
-
-    nav ul {
-        text-align: center;
-        padding-left: 0;
-    }
-
-    nav li {
-        /* display: block; */
-        margin: 10px 0;
-    }
-
-    .container {
-        padding: 20px;
-    }
-
-    .photo-container img {
-        max-width: 90%;
-    }
-
-    .thankyouPhoto img{
-        max-width: 100%;
-        opacity: 50%;
-        z-index: -1;
-    }
-    
-}
-/***************************************media responsive*********************************************/
-/* Reset some default styles */
 body,
 h1,
 h2,
@@ -237,3 +203,41 @@ nav a:hover {
 span{
     color: #54281d;
 }
+
+/***************************************media responsive*********************************************/
+/* For screens smaller than 768px (e.g., mobile devices) */ 
+/* panne */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    nav li {
+        /* display: block; */
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .photo-container img {
+        max-width: 90%;
+    }
+
+    .thankyouPhoto img{
+        max-width: 100%;
+        opacity: 50%;
+        z-index: -1;
+    }
+    
+    .liveText h3 {
+        font-size: 250%;
+    }
+}
+/***************************************media responsive*********************************************/
