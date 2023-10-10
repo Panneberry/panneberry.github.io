@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panneberry</title>
+    <link rel="stylesheet" href="panneberryStyle.css">
+    <link rel="stylesheet" href="mouse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="panne-favicon.png" type="image/png">
+    <script src="panneberryScript.js"></script>
+    <script src="mouse.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- panne SKT is testing on window -->
+        </nav>
+    </header>
+
+    <div id="language-selector" class="language_button">
+        <div>
+            <button onclick="loadLanguage('en')">EN</button>
+            <button onclick="loadLanguage('th')">TH</button>
+            <button onclick="loadLanguage('jp')">JP</button>
+        </div>
+    </div>
+    
+    <!-- <div id="preloader">
+        <img src=" https://loading.io/asset/689563" alt="Preloading Logo"> -->
+
+        <!-- https://loading.io/asset/689565
+    </div> -->
+
+    <div class="photo-container"> <!-- test comment -->
+        <img src="welcomeToPanne.png" alt="Your Photo">
+    </div>
+    
+    <div class="liveText">
+        <h3>Panne is <span class="auto-type"></span></h3>
+    </div>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h1>Panneberry</h1>
+            <p>Hi! Profile Introduction <br><br>
+                I am currently building this website. <br>
+                Please come back again in October. <br>
+                Thank you. &hearts; <!-- Heart emoji using HTML entity -->
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Personal Projects</h2>
+            <p> <br>  Sushiro calculator <br> 
+                Coming soon !
+            </p>
+            <ul class="clickMylink">
+                <li>
+                  <a href="https://sushiro.panneberry.me" target="_blank"><i class="fas fa-link"></i> visit my Sushiro Calculator</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <br> 
+              <div class =  "social_media">
+                <a href="https://github.com/Panneberry" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:pannenarumon@gmail.com"><i class="far fa-envelope"></i></a>
+              </div>
+        </div>
+    </section>
+    <div class="thankyouPhoto" alt="Your Photo"> 
+        <img src="thankyou.png" 
+                style="  
+                opacity: 50%;
+                max-width: 100%;
+                float: right;
+                position: relative;
+                z-index: -1;" >
+    </div>
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["thinking", "coding", "sleepy"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+</body>
+</html>
