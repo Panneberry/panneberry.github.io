@@ -1150,7 +1150,7 @@ function initLazyLoad() {
 }
 
 /**
- * Play Video Inview
+ * Play Video Inview// play words on first time loading page // icon human character
  */
 function initPlayVideoInview() {
 
@@ -1275,6 +1275,7 @@ function initScrolltriggerAnimations() {
 
     // Disable GSAP on Mobile
     // Source: https://greensock.com/forums/topic/26325-disabling-scrolltrigger-on-mobile-with-mediamatch/
+    // when scroll the page, elements will slowwly move in
     ScrollTrigger.matchMedia({
 
         // Desktop Only Scrolltrigger 
