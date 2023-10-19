@@ -28,6 +28,7 @@ function initLoaderHome() {
         });
     }
 
+    //  *****************************loading ****************** 
     tl.set(".loading-words", {
         opacity: 0,
         y: -50
@@ -122,6 +123,8 @@ function initLoaderHome() {
     tl.set(".loading-screen .rounded-div-wrap.bottom", {
         height: "0vh"
     });
+
+    // ******************************************* more  loading *********************
 
     tl.to("main .once-in", {
         duration: 1.5,
@@ -220,6 +223,8 @@ function initLoader() {
 
 }
 
+
+    // ******************************************* end loading *********************
 
 // Animation - Page transition In
 function pageTransitionIn() {
